@@ -1,0 +1,15 @@
+{
+  "name": "nnin",
+  "version": "1.0.0",
+  "description": "Norwegian National Identity Number Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

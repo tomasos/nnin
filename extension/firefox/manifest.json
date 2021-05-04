@@ -1,0 +1,17 @@
+{
+  "name": "NNIN Generator",
+  "version": "1.2",
+  "description": "Generate norwegian national identity numbers",
+  "permissions": ["storage", "activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "nnin32.png"
+  },
+  "icons": {
+    "16": "nnin16.png",
+    "32": "nnin32.png",
+    "48": "nnin48.png",
+    "128": "nnin128.png"
+  },
+  "manifest_version": 2
+}
