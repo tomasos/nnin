@@ -1,7 +1,8 @@
 function generator() {
   var from = document.getElementById("from").value;
   var to = document.getElementById("to").value;
-  var nnin = generate(from, to, 1);
+  var gender = document.getElementById("gender").checked ? 1 : 0;
+  var nnin = generate(from, to, gender);
 
   document.getElementById("nnin").value = nnin;
   chrome.storage.sync.set({ nnin: nnin }, function() {});
